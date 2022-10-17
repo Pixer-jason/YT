@@ -15,7 +15,7 @@ def greetings():
    ╚═╝      ╚═╝       ╚═════╝  ╚═════╝  ╚══╝╚══╝ ╚═╝  ╚═══╝╚══════╝ ╚═════╝ ╚═╝  ╚═╝╚═════╝ ╚══════╝╚═╝  ╚═╝
     """)
     print("\033[1;31;40m\t\t\tDeveloped By Pixer Jason\n")
-    print("\033[1;33;40mInsipred By TripleHat\n")
+    print("\033[1;33;40mInspired By TripleHat\n")
 
 greetings()
 
