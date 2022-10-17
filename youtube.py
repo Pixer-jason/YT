@@ -31,7 +31,7 @@ for i in range (3):
     i=i+1
 
 if ingiza == '1':
-    lv = input("Enter YouTube URL For !080p: ")
+    lv = input("Enter YouTube URL For 1080p: ")
     time.sleep(3)
     dwn = pytube.YouTube(lv)
     print("Downloading..\../..\../\n")
