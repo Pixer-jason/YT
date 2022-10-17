@@ -52,3 +52,5 @@ elif ingiza == '2':
 elif ingiza == '3':
     print("\033[1;31;40mOops! There's Nothing Up Here!\n")
     exit
+else:
+    print("Invalid input")
