@@ -3,6 +3,7 @@ import pytube
 #import tqdm
 #from pathlib import Path
 import time
+import sys
 
 os.system("clear")
 def typingPrint(text):
