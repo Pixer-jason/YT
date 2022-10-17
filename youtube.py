@@ -4,7 +4,7 @@ import pytube
 #from pathlib import Path
 import time
 
-os.system("cls")
+os.system("clear")
 def greetings():
     print("""\033[1;34;40m
 ██╗   ██╗████████╗    ██████╗  ██████╗ ██╗    ██╗███╗   ██╗██╗      ██████╗  █████╗ ██████╗ ███████╗██████╗ 
@@ -27,7 +27,7 @@ ingiza = input("Select Your Option: " + "\n")
 for i in range (3):
     print("Please wait... ", i)
     time.sleep(1)
-    os.system("cls")
+    os.system("clear")
     i=i+1
 
 if ingiza == '1':
