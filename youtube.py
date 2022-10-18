@@ -44,7 +44,7 @@ if ingiza == '1':
     print("Downloading..\../..\../\n")
     bangi = dwn.streams.get_highest_resolution().download(print("Finalizing..........\n"))
     print("Downloaded........... 100%", lv)
-    print(bangi + "\n")
+    print("PATH: ",bangi + "\n")
 
 
 elif ingiza == '2':
@@ -54,7 +54,7 @@ elif ingiza == '2':
     print("Downloading..\../..\../\n")
     bangi = dwn.streams.get_highest_resolution().download(print("Finalizing..........\n"))
     print("Downloaded........... 100%", lv)
-    print(bangi + "\n")
+    print("PATH: ",bangi + "\n")
 
 elif ingiza == '3':
     print("\033[1;31;40mOops! There's Nothing Up Here!\n")
