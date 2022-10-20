@@ -13,4 +13,4 @@ else
 	apt install python -y > /dev/null
 fi
 
-python3 email.py
+python youtube.py
