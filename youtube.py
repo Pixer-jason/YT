@@ -13,7 +13,7 @@ def typingPrint(text):
     time.sleep(0.05)
 
 def greetings():
-    typingPrint("""\033[1;34;40m
+    typingPrint("""
 ██╗   ██╗████████╗    ██████╗  ██████╗ ██╗    ██╗███╗   ██╗██╗      ██████╗  █████╗ ██████╗ ███████╗██████╗ 
 ╚██╗ ██╔╝╚══██╔══╝    ██╔══██╗██╔═══██╗██║    ██║████╗  ██║██║     ██╔═══██╗██╔══██╗██╔══██╗██╔════╝██╔══██╗
  ╚████╔╝    ██║       ██║  ██║██║   ██║██║ █╗ ██║██╔██╗ ██║██║     ██║   ██║███████║██║  ██║█████╗  ██████╔╝
@@ -21,12 +21,12 @@ def greetings():
    ██║      ██║       ██████╔╝╚██████╔╝╚███╔███╔╝██║ ╚████║███████╗╚██████╔╝██║  ██║██████╔╝███████╗██║  ██║
    ╚═╝      ╚═╝       ╚═════╝  ╚═════╝  ╚══╝╚══╝ ╚═╝  ╚═══╝╚══════╝ ╚═════╝ ╚═╝  ╚═╝╚═════╝ ╚══════╝╚═╝  ╚═╝
     """)
-    print("\033[1;31;40m\t\t\tDeveloped By Pixer Jason\n")
-    print("\033[1;33;40mInspired By TripleHat\n")
+    print("\t\t\tDeveloped By Pixer Jason\n")
+    print("Inspired By TripleHat\n")
 
 greetings()
 
-print("\033[1;37;40m1.Download 1080p Video\n")
+print("1.Download 1080p Video\n")
 print("2.Download 720p Video\n")
 print("3.Change Dirrectory\n")
 ingiza = input("Select Your Option: " + "\n")
